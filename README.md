@@ -1,4 +1,4 @@
-![alt text]('images/mri_image.jfif')
+![alt text](https://github.com/dennerbocardi/brain_tumor_detection/blob/main/images/mri_image.jfif)
 # Brain Tumor Detection with TensorFlow 
 
 ## Overview
