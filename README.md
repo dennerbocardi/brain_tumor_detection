@@ -40,5 +40,5 @@ At the end of this roadmap, we would be able to, given an MRI of a brain, we can
 
 ## Any Doubts
 Contact me
- - denner.bocardi@gmail.com
- - https://www.linkedin.com/in/dennersdenner/
+ - Email: denner.bocardi@gmail.com
+ - LinkedIn: https://www.linkedin.com/in/dennersdenner/
