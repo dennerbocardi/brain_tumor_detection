@@ -17,8 +17,8 @@ We want to build a Convolutional Neural Network using TensorFlow to identify if 
 ## Dataset
 The sample of images were found on Kagle: [here](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection).
 ```
-[!NOTE]
-I do not own any image of this dataset.
+>>>[!NOTE]
+>>>I do not own any image of this dataset.
 ```
 
 ## Approach
