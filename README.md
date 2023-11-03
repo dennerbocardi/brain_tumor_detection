@@ -40,7 +40,8 @@ At the end of this roadmap, we would be able to, given an MRI of a brain, we can
 brain tumor detection
 ├── src/     # the notebooks folder, where the models are stored
 │  ├── MRI_images/   # folder where the MRI images are stored
-│  └── CNN_brain_tumor_detection.ipynb # building our CNN model 
+│  ├── CNN_brain_tumor_detection.ipynb # building our CNN model 
+│  └── cnn_brain_tumor_idenrifier.pkl # picke file to the deploy stage
 ├── images / # folder with some images I might use (for aesthetic purposes only)
 └──README.md # this file
 ```
