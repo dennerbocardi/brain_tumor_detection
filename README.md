@@ -35,16 +35,36 @@ The approach here is quite simple:
 
 At the end of this roadmap, we would be able to, given an MRI of a brain, we can identify whether there is a tumor or not with an acceptable error rate.
 
-# Project Struture
+## Project Struture
 ```
 brain tumor detection
-├── src/     # the notebooks folder, where the models are stored
-│  ├── MRI_images/   # folder where the MRI images are stored
-│  ├── CNN_brain_tumor_detection.ipynb # building our CNN model 
-│  └── cnn_brain_tumor_idenrifier.pkl # picke file to the deploy stage
+├──src/     # the notebooks folder, where the model is stored
+│  ├──model_building / # all files related to the model building
+│  │  ├──MRI_images # all the train and test images
+│  │  ├──CNN_brain_tumor_detection.ipynb # the notebook where de model is build
+│  │  └──model.keras #the model already trained and tested 
+│  ├──model.py # executable python file with de model ready to use     
+│  └──requirements.txt # a file with all the libraries and packeges we used on the project 
 ├── images / # folder with some images I might use (for aesthetic purposes only)
-└──README.md # this file
+└── README.md # this file
 ```
+
+## How to use
+First you need to clone this repo
+```
+git clone git@github.com:dennerbocardi/brain_tumor_detection.git
+```
+Install the requirements 
+```
+pip install requirements.txt
+```
+Execute the model.py file 
+Install the requirements 
+```
+python mri_brain_tumor_detection.py
+```
+
+Enter a brain MRI image path and let the CNN do the job!
 
 ## Lenguages and Tools
 <p align="left">  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a><a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a><a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> <a href="https://jupyter.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" alt="jupyter" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a>
