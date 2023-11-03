@@ -29,7 +29,7 @@ def cnn_brain_tumor_identifier(image_path):
     img = np.expand_dims(img, axis=0)
 
 
-    pred = fitted_model.predict(img)
+    pred = model.predict(img)
     pred = float(pred[0,0])
 
     if pred > 0.9:
