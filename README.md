@@ -56,7 +56,7 @@ git clone git@github.com:dennerbocardi/brain_tumor_detection.git
 ```
 Install the requirements 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 Execute the model.py file 
 Install the requirements 
