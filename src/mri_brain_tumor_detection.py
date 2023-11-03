@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from tensorflow import keras
 from PIL import Image, ImageDraw, ImageFont
 
-model = tf.keras.saving.load_model("model_building/model.keras") 
+model = tf.keras.saving.load_model("notebook/model.keras") 
 
 
 def show_image(image_path):
