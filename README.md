@@ -58,8 +58,8 @@ Install the requirements
 ```
 pip install -r requirements.txt
 ```
-Execute the model.py file 
-Install the requirements 
+Execute the mri_brain_tumor_detection.py file 
+
 ```
 python mri_brain_tumor_detection.py
 ```
