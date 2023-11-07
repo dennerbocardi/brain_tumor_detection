@@ -38,13 +38,13 @@ At the end of this roadmap, we would be able to, given an MRI of a brain, we can
 ## Project Struture
 ```
 brain tumor detection
-├──src/     # the notebooks folder, where the model is stored
-│  ├──model_building / # all files related to the model building
-│  │  ├──MRI_images # all the train and test images
-│  │  ├──CNN_brain_tumor_detection.ipynb # the notebook where de model is build
-│  │  └──model.keras #the model already trained and tested 
-│  ├──model.py # executable python file with de model ready to use     
-│  └──requirements.txt # a file with all the libraries and packeges we used on the project 
+├── src/     # the notebooks folder, where the model is stored
+│  ├── model_building / # all files related to the model building
+│  │  ├── MRI_images # all the train and test images
+│  │  ├── CNN_brain_tumor_detection.ipynb # the notebook where de model is build
+│  │  └── model.keras #the model already trained and tested 
+│  ├── mri_brain_tumor_detection.py # executable python file with de model ready to use     
+│  └── requirements.txt # a file with all the libraries and packeges we used on the project 
 ├── images / # folder with some images I might use (for aesthetic purposes only)
 └── README.md # this file
 ```
@@ -58,8 +58,8 @@ Install the requirements
 ```
 pip install -r requirements.txt
 ```
-Execute the model.py file 
-Install the requirements 
+Execute the mri_brain_tumor_detection.py file 
+
 ```
 python mri_brain_tumor_detection.py
 ```
